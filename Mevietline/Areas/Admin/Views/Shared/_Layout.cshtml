@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] </title>
+    <link rel="stylesheet" href="~/css/adminfb/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MevietLine.styles.css" asp-append-version="true" />
+
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/font-awesome/css/all.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link href="~/datatables/datatables.css" rel="stylesheet" />
+    <link href="~/datatables/datatables.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/upload/60ccc24b-2ea4-4cae-8c78-7a2314c6dfd5_logo mvl.png">
+
+</head>
+<body>
+    <header>
+        <div class="bg-light text-center">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="~/upload/tungmap-1.png" />
+            </a>
+        </div>
+
+        <nav id="nav-menu" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div id="nav-menu-wrapper" class="container-fluid text-center">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link text-dark mx-2" href="~/AdminFb/Index">Trang chủ</a>
+                        <a class="nav-link text-dark mx-2" href="~/AdminFb/HistoryTransaction">Lịch sử mua bán</a>
+                        <a class="nav-link text-dark mx-2" href="~/AdminFb/DepositAndWithdrawalOrders">Lệnh nạp/rút</a>
+                        <a class="nav-link text-dark mx-2" href="~/AdminFb/DanhSachSanPham">Danh sách sản phẩm</a>
+                        <a class="nav-link text-dark mx-2" href="~/AdminFb/EditIndex">Chỉnh sửa hình ảnh</a>
+                        <a class="nav-link text-dark mx-2" href="~/AdminFb/ControlUser">Kiểm soát người dùng</a>
+                        <a class="nav-link text-dark mx-2" href="~/AdminFb/Logout">Đăng xuất</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row">
+        <div class="d-none d-sm-none col-md-3 d-md-block col-xl-2">
+            <div id="side-bar">
+                <div class="d-flex flex-column flex-shrink-0 p-3 bg-light w-100">
+                    <hr />
+                    <ul class="nav nav-pills flex-column mb-auto">
+                        <li class="nav-item">
+                            <a href="~/AdminFb/Index"
+                               class="nav-link @((ViewBag.checkActive == "trangChu") ? "active" : "")"
+                               aria-current="page">
+                                <i class="fa-solid fa-house"></i>
+                                Trang chủ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/AdminFb/HistoryTransaction"
+                               class="nav-link @((ViewBag.checkActive == "lichSu") ? "active" : "")">
+                                <i class="fa-solid fa-money-bill-transfer"></i>
+                                Lịch sử mua bán
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/AdminFb/DepositAndWithdrawalOrders"
+                               class="nav-link @((ViewBag.checkActive == "napRut") ? "active" : "")">
+                                <i class="fa-solid fa-money-check-dollar"></i>
+                                Lệnh nạp/rút
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/AdminFb/DanhSachSanPham"
+                               class="nav-link @((ViewBag.checkActive == "sanPham") ? "active" : "")">
+                                <i class="fa-solid fa-list-check"></i>
+                                Danh sách sản phẩm
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/AdminFb/EditIndex"
+                               class="nav-link @((ViewBag.checkActive == "chinhSua") ? "active" : "")">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                                Chỉnh sửa hình ảnh
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/AdminFb/ControlUser"
+                               class="nav-link @((ViewBag.checkActive == "control") ? "active" : "")">
+                                <i class="fa-solid fa-person-circle-check"></i>
+                                Kiểm soát người dùng
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/AdminFb/chatadminview"
+                               class="nav-link @((ViewBag.checkActive == "chat") ? "active" : "")">
+                                <i class="fa-solid fa-comment-sms"></i>
+                                Chat với người dùng
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/AdminFb/ChangePassword"
+                               class="nav-link @((ViewBag.checkActive == "mkAdmin") ? "active" : "")">
+                                <i class="fa-solid fa-unlock"></i>
+                                Đổi mật khẩu admin
+                            </a>
+                        </li>
+                        <li>
+                            <a href="~/AdminFb/Logout"
+                               class="nav-link ">
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                                Đăng xuất
+                            </a>
+                        </li>
+                    </ul>
+                    <hr />
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-9 col-xl-10">
+            <main role="main" class="pb-3 pt-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+   
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="~/datatables/datatables.js"></script>
+    <script src="~/font-awesome/js/all.min.js"></script>
+    <script src="~/datatables/datatables.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/AdminFb/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,105 @@
+﻿
+
+<div id="DanhSach">
+    <button class="btn btn-success mb-3" v-on:click="AddNewItems">Thêm mới sản phẩm</button>
+
+    <table class="table table-bordered text-center" id="DanhSach_SP">
+        <thead>
+            <tr>
+                <th>Mã code</th>
+                <th>Tên tài khoản</th>
+                <th>Giá bán</th>
+                <th>Số lượng</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr v-for="items in listProducts">
+                <td> {{items.maCode}}</td>
+                <td> {{items.nguoiBan}}</td>
+                <td >
+                    {{ new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(items.giaCa) }}
+
+                </td>
+                <td> {{items.soLuongTaiKhoan}}</td>
+                <td>
+                    <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#suaModal" v-on:click="getIdBang(items.id)">Sửa</button>
+
+                </td>
+                <td>
+                    <button class=" btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#xoaModal" v-on:click="getIdBang(items.id)">Xóa</button>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Modal sửa -->
+    <div class="modal fade" id="suaModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Sửa sản phẩm</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="maCode" class="form-label">Mã code</label>
+                        <input type="text" class="form-control" v-model="maCode" :value="maCode" id="maCode" aria-describedby="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="nguoiBan" class="form-label">Tên tài khoản</label>
+                        <input type="text" class="form-control" v-model="nguoiBan" :value="nguoiBan" id="nguoiBan" aria-describedby="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="GiaCa" class="form-label">Giá bán</label>
+                        <input type="number" class="form-control" v-model="giaCa" :value="giaCa" id="giaCa" aria-describedby="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="soLuong" class="form-label">Số lượng tài khoản</label>
+                        <input type="number" class="form-control" v-model="soLuong" :value="soLuong" id="soLuong" aria-describedby="">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="suaBang">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal xóa -->
+    <div class="modal fade" id="xoaModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Sửa sản phẩm</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="maCode" class="form-label">Mã code</label>
+                        <input type="text" class="form-control" v-model="maCode" :value="maCode" id="maCode" aria-describedby="" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="nguoiBan" class="form-label">Tên tài khoản</label>
+                        <input type="text" class="form-control" v-model="nguoiBan" :value="nguoiBan" id="nguoiBan" aria-describedby="" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="GiaCa" class="form-label">Giá bán</label>
+                        <input type="number" class="form-control" v-model="giaCa" :value="giaCa" id="giaCa" aria-describedby="" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="soLuong" class="form-label">Số lượng tài khoản</label>
+                        <input type="number" class="form-control" v-model="soLuong" :value="soLuong" id="soLuong" aria-describedby="" readonly>
+                    </div>
+                </div>
+                <div class="modal-footer" >
+                    <button type="button"  class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="XoaBang">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/adminfb_vuejs/listpro.js"></script>

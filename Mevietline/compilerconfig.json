@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/views/ViewItemTemplate.css",
+    "inputFile": "wwwroot/css/views/ViewItemTemplate.less"
+  },
+  {
+    "outputFile": "wwwroot/css/custom.css",
+    "inputFile": "wwwroot/css/custom.less"
+  },
+  {
+    "outputFile": "wwwroot/css/site.css",
+    "inputFile": "wwwroot/css/site.less"
+  },
+  {
+    "outputFile": "wwwroot/css/AdminFb/site.css",
+    "inputFile": "wwwroot/css/AdminFb/site.less"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "font-awesome@6.4.0",
+      "destination": "wwwroot/font-awesome/"
+    },
+    {
+      "library": "pace@1.2.4",
+      "destination": "wwwroot/lib/pace/",
+      "files": [
+        "pace.min.js",
+        "pace.js"
+      ]
+    }
+  ]
+}

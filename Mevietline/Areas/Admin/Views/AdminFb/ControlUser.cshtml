@@ -1,0 +1,120 @@
+﻿
+<div id="control_user">
+    <table class="table table-bordered text-center" id="dataUser_table">
+        <thead>
+            <tr>
+                <th>Tên user</th>
+                <th>Tiền đang có</th>
+                <th>Số điểm đang có</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr v-for="items in dataUser">
+                <td>{{items.userName}}</td>
+                <td>
+
+                    {{ new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(items.tienDangCo) }}
+                </td>
+                <td>{{items.soDiem}} điểm</td>
+                <td>
+                    <button class="btn btn-success btn-muaban" type="button" data-bs-toggle="modal" data-bs-target="#suaUserData" v-on:click=" getIdBangUser(items.id)">Sửa</button> |
+                    <button class=" btn btn-danger btn-muaban" type="button" data-bs-toggle="modal" data-bs-target="#xoaUserData" v-on:click=" getIdBangUser(items.id)" :disabled="checkIdUser(items.id)">Xóa</button> |
+                    <button class=" btn btn-warning btn-muaban" type="button" data-bs-toggle="modal" data-bs-target="#changeMatKhau" v-on:click=" getIdBangUser(items.id)">Mật khẩu</button> 
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Modal sửa user   -->
+    <div class="modal fade" id="suaUserData" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sửa người dùng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" v-model="idUser" :value="idUser" id="idUser" />
+                    <div class="mb-3">
+                        <label for="userName" class="form-label">Tên người dùng</label>
+                        <input type="text" v-model="userName" :value="userName" class="form-control" id="userName" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tienDangCo" class="form-label">Tiền đang có</label>
+                        <input type="text" v-model="tienDangCo" :value="tienDangCo" class="form-control" id="tienDangCo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="soDiem" class="form-label">Số điểm đang có</label>
+                        <input type="text" v-model="soDiem" :value="soDiem" class="form-control" id="soDiem">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="suaBangUser">Lưu thay đổi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal xóa user   -->
+    <div class="modal fade" id="xoaUserData" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Xóa người dùng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" v-model="idUser" :value="idUser" id="idUser" />
+                    <input type="hidden" v-model="password" :value="password" id="password" />
+                    <div class="mb-3">
+                        <label for="userName" class="form-label">Tên người dùng</label>
+                        <input type="text" v-model="userName" :value="userName" class="form-control" id="userName" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tienDangCo" class="form-label">Tiền đang có</label>
+                        <input type="text" v-model="tienDangCo" :value="tienDangCo" class="form-control" id="tienDangCo" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="soDiem" class="form-label">Số điểm đang có</label>
+                        <input type="text" v-model="soDiem" :value="soDiem" class="form-control" id="soDiem" readonly>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="XoaBangUser">Lưu thay đổi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal mật khẩu user   -->
+    <div class="modal fade" id="changeMatKhau" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sửa mật khẩu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" v-model="idUser" :value="idUser" id="idUser" />
+                    <div class="mb-3">
+                        <label for="userName" class="form-label">Tên người dùng</label>
+                        <input type="text" v-model="userName" :value="userName" class="form-control" id="userName" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="newPassword" class="form-label">Mật khẩu mới</label>
+                        <input type="password" v-model="newPassword" :value="newPassword" class="form-control" id="newPassword">
+                    </div>
+                    
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="suaBangUser">Lưu thay đổi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/js/adminfb_vuejs/controluser_vue.js"></script>

@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="admin-container container">
+    <h1>Đây là admin</h1>
+</div>
+
+<div>
+    <input type="checkbox"
+           id="check" />
+    <label class="chat-btn"
+           for="check">
+        <i class="fa-regular fa-comment-dots comment"></i>
+        <i class="fa-solid fa-xmark close"></i>
+    </label>
+    <form class="wrapper">
+        <div class="header"><h6>Let's Chat - Online</h6></div>
+
+        <div class="chat-form">
+            <input type="text"
+                   class="form-control"
+                   placeholder="Tên" />
+            <input type="text"
+                   class="form-control"
+                   placeholder="Email" />
+            <textarea class="form-control"
+                      placeholder="Tin nhắn"></textarea>
+            <input type="submit" value="Gửi" class="btn btn-success float-end mb-2 mt-2">
+        </div>
+    </form>
+</div>
+
+<script src="~/js/adminfb_vuejs/adminfb_crud.js"></script>

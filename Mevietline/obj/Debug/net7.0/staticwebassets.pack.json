@@ -1,0 +1,937 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Khach155.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Khach155.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\css\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\css\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\css\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\css\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\css\\dataTables.foundation.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\css\\dataTables.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\css\\dataTables.foundation.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\css\\dataTables.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\css\\dataTables.jqueryui.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\css\\dataTables.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\css\\dataTables.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\css\\dataTables.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\css\\dataTables.semanticui.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\css\\dataTables.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\css\\dataTables.semanticui.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\css\\dataTables.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\css\\jquery.dataTables.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\css\\jquery.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\images\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\images\\sort_both.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\images\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\dataTables.foundation.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\dataTables.foundation.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\dataTables.foundation.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\dataTables.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\dataTables.jqueryui.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\dataTables.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\dataTables.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\dataTables.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\dataTables.semanticui.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\dataTables.semanticui.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\dataTables.semanticui.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\dataTables.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\i18n\\vi.json.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\i18n\\vi.json.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\i18n\\vi.json.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\i18n\\vi.json.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\DataTables-1.10.18\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\DataTables-1.10.18\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.bootstrap.css",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.bootstrap4.css",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.dataTables.css",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.dataTables.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.foundation.css",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.foundation.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.foundation.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.jqueryui.css",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.semanticui.css",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.semanticui.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.semanticui.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\buttons.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\common.scss",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\common.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\css\\mixins.scss",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\css\\mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.bootstrap.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.bootstrap4.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.colVis.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.colVis.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.flash.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.flash.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.flash.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.foundation.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.foundation.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.foundation.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.html5.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.html5.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.jqueryui.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.print.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.print.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.semanticui.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.semanticui.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.semanticui.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\buttons.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\dataTables.buttons.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\dataTables.buttons.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\js\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\js\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\Buttons-1.6.5\\swf\\flashExport.swf",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\Buttons-1.6.5\\swf\\flashExport.swf"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\pdfmake-0.1.36\\pdfmake.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\pdfmake-0.1.36\\pdfmake.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\pdfmake-0.1.36\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\pdfmake-0.1.36\\pdfmake.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\Export\\pdfmake-0.1.36\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\DataTables\\Export\\pdfmake-0.1.36\\vfs_fonts.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\buttons.dataTables.css",
+      "PackagePath": "staticwebassets\\DataTables\\buttons.dataTables.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\buttons.dataTables.js",
+      "PackagePath": "staticwebassets\\DataTables\\buttons.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\buttons.dataTables.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\buttons.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\datatables.css",
+      "PackagePath": "staticwebassets\\DataTables\\datatables.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\datatables.js",
+      "PackagePath": "staticwebassets\\DataTables\\datatables.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\datatables.min.css",
+      "PackagePath": "staticwebassets\\DataTables\\datatables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\jQuery-3.3.1\\jquery-3.3.1.js",
+      "PackagePath": "staticwebassets\\DataTables\\jQuery-3.3.1\\jquery-3.3.1.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\DataTables\\jQuery-3.3.1\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\DataTables\\jQuery-3.3.1\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\adminaa.jpg",
+      "PackagePath": "staticwebassets\\adminaa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\css\\AdminFb\\site.css",
+      "PackagePath": "staticwebassets\\css\\AdminFb\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\css\\AdminFb\\site.less",
+      "PackagePath": "staticwebassets\\css\\AdminFb\\site.less"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\css\\AdminFb\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\AdminFb\\site.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\css\\site.less",
+      "PackagePath": "staticwebassets\\css\\site.less"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\js\\AdminChatJs.js",
+      "PackagePath": "staticwebassets\\js\\AdminChatJs.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\js\\AdminFb\\site.js",
+      "PackagePath": "staticwebassets\\js\\AdminFb\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\js\\AdminFb_Vuejs\\AdminFb_CRUD.js",
+      "PackagePath": "staticwebassets\\js\\AdminFb_Vuejs\\AdminFb_CRUD.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\js\\AdminFb_Vuejs\\ControlUser_vue.js",
+      "PackagePath": "staticwebassets\\js\\AdminFb_Vuejs\\ControlUser_vue.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\js\\AdminFb_Vuejs\\EditImage.js",
+      "PackagePath": "staticwebassets\\js\\AdminFb_Vuejs\\EditImage.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\js\\AdminFb_Vuejs\\ListPro.js",
+      "PackagePath": "staticwebassets\\js\\AdminFb_Vuejs\\ListPro.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\js\\BangMain_Vuejs\\BangMain_CRUD.js",
+      "PackagePath": "staticwebassets\\js\\BangMain_Vuejs\\BangMain_CRUD.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\js\\BangMain_Vuejs\\ThayAnh.js",
+      "PackagePath": "staticwebassets\\js\\BangMain_Vuejs\\ThayAnh.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\js\\Layout_vuejs\\layout_vue.js",
+      "PackagePath": "staticwebassets\\js\\Layout_vuejs\\layout_vue.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\js\\ProfileMain_Vuejs\\ProfileMain_CRUD.js",
+      "PackagePath": "staticwebassets\\js\\ProfileMain_Vuejs\\ProfileMain_CRUD.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\pace\\pace.js",
+      "PackagePath": "staticwebassets\\lib\\pace\\pace.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\pace\\pace.min.js",
+      "PackagePath": "staticwebassets\\lib\\pace\\pace.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\browser\\signalr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\lib\\signalr\\dist\\browser\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\signalr\\dist\\browser\\signalr.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\unnamed.png",
+      "PackagePath": "staticwebassets\\unnamed.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\06c22a59-4cf4-46b8-ab35-02bd8a2213f7_1385x500-2.png",
+      "PackagePath": "staticwebassets\\upload\\06c22a59-4cf4-46b8-ab35-02bd8a2213f7_1385x500-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\0721e541-cc8f-4a9c-9947-ca2c260bbb9d_Screenshot 2023-04-11 091812.jpg",
+      "PackagePath": "staticwebassets\\upload\\0721e541-cc8f-4a9c-9947-ca2c260bbb9d_Screenshot 2023-04-11 091812.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\1234bffb-ab09-4b86-a192-735b398899ec_unnamed.png",
+      "PackagePath": "staticwebassets\\upload\\1234bffb-ab09-4b86-a192-735b398899ec_unnamed.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\1900e7cd-7659-41ea-a65d-129b7eb8754b_IT-job-description-banner.png",
+      "PackagePath": "staticwebassets\\upload\\1900e7cd-7659-41ea-a65d-129b7eb8754b_IT-job-description-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\2dd741b5-c901-4443-ac93-cd9fc4c7cb8e_passport-card-sample.png",
+      "PackagePath": "staticwebassets\\upload\\2dd741b5-c901-4443-ac93-cd9fc4c7cb8e_passport-card-sample.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\34468af8-6970-4da3-a912-118511461d85_06c22a59-4cf4-46b8-ab35-02bd8a2213f7_1385x500-2.png",
+      "PackagePath": "staticwebassets\\upload\\34468af8-6970-4da3-a912-118511461d85_06c22a59-4cf4-46b8-ab35-02bd8a2213f7_1385x500-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\3630728a-9cb9-40f9-a08a-5a25a1b38a0a_1385x500-2.png",
+      "PackagePath": "staticwebassets\\upload\\3630728a-9cb9-40f9-a08a-5a25a1b38a0a_1385x500-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\3f514b39-ca45-4744-ac0e-53f3212bf2cd_download.PNG",
+      "PackagePath": "staticwebassets\\upload\\3f514b39-ca45-4744-ac0e-53f3212bf2cd_download.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\44949d2b-e103-4a63-88b1-daf368757e44_Screenshot 2023-04-12 222000.png",
+      "PackagePath": "staticwebassets\\upload\\44949d2b-e103-4a63-88b1-daf368757e44_Screenshot 2023-04-12 222000.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\4c4ea33a-c26f-4103-9d51-75dc79882d75_download.PNG",
+      "PackagePath": "staticwebassets\\upload\\4c4ea33a-c26f-4103-9d51-75dc79882d75_download.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\4dd9f445-0e62-4fce-adcd-27fe7bd7815e_1385x500-2.png",
+      "PackagePath": "staticwebassets\\upload\\4dd9f445-0e62-4fce-adcd-27fe7bd7815e_1385x500-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\5f435f27-a66d-44a0-ae63-fdc8977d2b47_1385x500-2.png",
+      "PackagePath": "staticwebassets\\upload\\5f435f27-a66d-44a0-ae63-fdc8977d2b47_1385x500-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\60ccc24b-2ea4-4cae-8c78-7a2314c6dfd5_LOGO MVL.png",
+      "PackagePath": "staticwebassets\\upload\\60ccc24b-2ea4-4cae-8c78-7a2314c6dfd5_LOGO MVL.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\65b51341-167c-488b-bce8-43e15c4c9bc3_Screenshot 2023-04-11 091812.jpg",
+      "PackagePath": "staticwebassets\\upload\\65b51341-167c-488b-bce8-43e15c4c9bc3_Screenshot 2023-04-11 091812.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\6b23ffa3-cda5-4339-971b-76c77df3bd73_0x0.png",
+      "PackagePath": "staticwebassets\\upload\\6b23ffa3-cda5-4339-971b-76c77df3bd73_0x0.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\6d88419f-d7e9-4ad9-a29e-951fcdca30ee_1385x500-2.png",
+      "PackagePath": "staticwebassets\\upload\\6d88419f-d7e9-4ad9-a29e-951fcdca30ee_1385x500-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\9a7c8217-2942-4ef6-98ef-0f888b2b1190_Screenshot 2023-04-12 222000.png",
+      "PackagePath": "staticwebassets\\upload\\9a7c8217-2942-4ef6-98ef-0f888b2b1190_Screenshot 2023-04-12 222000.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\bank_qr.png",
+      "PackagePath": "staticwebassets\\upload\\bank_qr.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\c14d222d-6a64-4e37-a483-7718541b9336_download.PNG",
+      "PackagePath": "staticwebassets\\upload\\c14d222d-6a64-4e37-a483-7718541b9336_download.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\c649adea-0157-4996-8542-7748335a2b4e_tungmap-1.png",
+      "PackagePath": "staticwebassets\\upload\\c649adea-0157-4996-8542-7748335a2b4e_tungmap-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\chat.gif",
+      "PackagePath": "staticwebassets\\upload\\chat.gif"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\phone.gif",
+      "PackagePath": "staticwebassets\\upload\\phone.gif"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\upload\\tungmap-1.png",
+      "PackagePath": "staticwebassets\\upload\\tungmap-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Doanh\\source\\repos\\Khach155\\Khach155\\wwwroot\\user.png",
+      "PackagePath": "staticwebassets\\user.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Khach155.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Khach155.props",
+      "PackagePath": "build\\Khach155.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Khach155.props",
+      "PackagePath": "buildMultiTargeting\\Khach155.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Khach155.props",
+      "PackagePath": "buildTransitive\\Khach155.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

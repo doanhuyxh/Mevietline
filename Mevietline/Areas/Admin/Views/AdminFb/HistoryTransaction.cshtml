@@ -1,0 +1,102 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="admin-container container">
+    <h1>Lịch sử mua bán người dùng</h1>
+
+    <div id="Admin_fb" class="mb-2">
+        
+
+        <div class="float-end me-2">
+            <span id="btn-mua" class="active1 me-2">Mua</span> |
+            <span id="btn-ban" class="ms-2">Bán</span>
+        </div>
+
+        <div id="table-mua">
+            <table class="table table-bordered text-center" id="table-mua2">
+                <thead>
+                    <tr>
+                        <th>Tên người dùng</th>
+                        <th>Giá đã mua</th>
+                        <th>Tên đã mua</th>
+                        <th>Số lượng mua</th>
+                        <th>Tiền đã thanh toán</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="items in allMua">
+                        <td>{{items.tenUser}}</td>
+                        <td>
+                            {{ new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(items.giaMua) }}
+                        </td>
+                        <td>{{items.muaCuaAi}}</td>
+                        <td>{{items.soLuongMua}}</td>
+                        <td>
+                            {{ new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(items.soTienThanhToan) }}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="table-ban">
+            <table class="table table-bordered" id="table-ban2">
+                <thead>
+                    <tr>
+                        <th>Tên người dùng</th>
+                        <th>Giá đã bán</th>
+                        <th>Tên đã bán</th>
+                        <th>Số lượng bán</th>
+                        <th>Tiền đã thanh toán</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="items in allBan">
+                        <td>{{items.tenUser}}</td>
+                        <td>
+                            {{ new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(items.giaMua) }}
+
+                        </td>
+                        <td>{{items.muaCuaAi}}</td>
+                        <td>{{items.soLuongMua}}</td>
+                        <td>
+                            {{ new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(items.soTienThanhToan) }}
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div>
+    <input type="checkbox"
+           id="check" />
+    <label class="chat-btn"
+           for="check">
+        <i class="fa-regular fa-comment-dots comment"></i>
+        <i class="fa-solid fa-xmark close"></i>
+    </label>
+    <form class="wrapper">
+        <div class="header"><h6>Let's Chat - Online</h6></div>
+
+        <div class="chat-form">
+            <input type="text"
+                   class="form-control"
+                   placeholder="Tên" />
+            <input type="text"
+                   class="form-control"
+                   placeholder="Email" />
+            <textarea class="form-control"
+                      placeholder="Tin nhắn"></textarea>
+            <input type="submit" value="Gửi" class="btn btn-success float-end mb-2 mt-2">
+        </div>
+    </form>
+</div>
+
+<script src="~/js/adminfb_vuejs/adminfb_crud.js"></script>
+<script src="~/js/adminfb_vuejs/listpro.js"></script>

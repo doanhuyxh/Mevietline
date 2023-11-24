@@ -1,0 +1,447 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div id="Edit_Vue_img">
+    <div class="row">
+        <div class="col-md-3">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#anhLogoEdit">Thay ảnh logo</button>
+
+        </div>
+        <div class="col-md-3">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#slideEdit">Thay ảnh slide</button>
+
+        </div>
+        <div class="col-md-3">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#thongBaoEdit">Thay dòng thông báo</button>
+
+        </div>
+        <div class="col-md-3">
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#diaChiEdit">Thay đổi địa chỉ footer</button>
+
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-3">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tieuDeEdit">Thay tiêu đề bảng </button>
+
+        </div>
+        <div class="col-md-3">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#headEdit">Thay đầu mục bảng</button>
+
+        </div>
+        <div class="col-md-3">
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#anhQrEdit">Thay ảnh QR</button>
+
+        </div>
+        <div class="col-md-3">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#luuYEdit">Thay lưu ý</button>
+
+        </div>
+
+    </div>
+    <div class="mt-3">
+        <div>
+            <h3>Danh sách tài khoản bank</h3>
+            <div>
+                <button class="btn btn-success btn-muaban" type="button" data-bs-toggle="modal" data-bs-target="#themBank">Thêm bank</button>
+
+            </div>
+        </div>
+        <table class="table table-bordered text-center" id="data_Bank">
+            <thead>
+                <tr>
+                    <th>Tên ngân hàng</th>
+                    <th>Số tài khoản</th>
+                    <th>Tên tài khoản</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="dataBanks in dataBank">
+                    <td>{{dataBanks.bankName}}</td>
+                    <td>{{dataBanks.taiKhoanBank}}</td>
+                    <td>{{dataBanks.tenTaiKhoan}}</td>
+                    <td>
+                        <button class="btn btn-success btn-muaban" type="button" data-bs-toggle="modal" data-bs-target="#suaBank" v-on:click=" getIdBangBank(dataBanks.id)">Sửa</button> |
+                        <button class=" btn btn-danger btn-muaban" type="button" data-bs-toggle="modal" data-bs-target="#xoaBankModal" v-on:click=" getIdBangBank(dataBanks.id)">Xóa</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <!-- Modal ảnh logo -->
+    <div class="modal fade" id="anhLogoEdit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sửa ảnh logo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img :src="Logo" alt="" style="width:50%" />
+                            <p>Ảnh đang có</p>
+                        </div>
+                        <div class="col-md-6">
+                            <label>
+
+                                Chọn ảnh
+                            </label>
+                            <input type="file" ref="pathLogoFile" v-on:change="onFileChange" accept="image/*">
+                            <img :src="previewImage" alt="" style="width:50%" />
+                            <p>Ảnh mới</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="uploadImage">Lưu thay đổi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal địa chỉ logo -->
+    <div class="modal fade" id="diaChiEdit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thay địa chỉ footer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="diaChi" class="form-label">Địa chỉ</label>
+                        <input type="text" v-model="diaChi" :value="diaChi" class="form-control" id="diaChi" placeholder="Địa chỉ">
+                    </div>
+                    <div class="mb-3">
+                        <label for="soDienThoai" class="form-label">Số điện thoại</label>
+                        <input type="number" v-model="soDienThoai" :value="soDienThoai" class="form-control" id="soDienThoai" placeholder="Số điện thoại">
+                    </div>
+                    <div class="mb-3">
+                        <label for="gmail" class="form-label">Gmail</label>
+                        <input type="email" v-model="gmail" :value="gmail" class="form-control" id="gmail" placeholder="Gmail">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="DiaChiFooter">Lưu thay đổi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal thông báo  -->
+    <div class="modal fade" id="thongBaoEdit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thay thông báo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating">
+                        <textarea class="form-control" v-model="chayNgang" :value="chayNgang" id="chayNgang" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Thông báo</label>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="chuChayThongBao">Lưu thay đổi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal thông báo  -->
+    <div class="modal fade" id="luuYEdit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thay lưu ý</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating">
+                        <textarea class="form-control" v-model="LuuY" :value="LuuY" id="LuuY" style="height: 100px"></textarea>
+                        <label for="LuuY">Lưu ý</label>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="LuuYBang">Lưu thay đổi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal tiêu đề   -->
+    <div class="modal fade" id="tieuDeEdit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thay tiêu đề</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating">
+                        <textarea class="form-control" v-model="tieuDe" :value="tieuDe" id="tieuDe" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Tiêu đề bảng</label>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="tieuDeBang">Lưu thay đổi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal ảnh qr   -->
+    <div class="modal fade" id="anhQrEdit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thay ảnh QR</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <img :src="pathQr" alt="" style="width:50%" />
+                            <p>Ảnh QR đang có </p>
+                        </div>
+                        <div class="col-md-6">
+                            <label>
+                                Chọn ảnh
+                            </label>
+                            <input type="file" ref="pathQrFile" v-on:change="onFileChangeSlide4" accept="image/*">
+                            <img :src="previewImage4" alt="" style="width:50%" />
+                            <p>Ảnh mới</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="uploadImageQR">Lưu thay đổi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal tiêu mục   -->
+    <div class="modal fade" id="headEdit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thay đầu bảng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="mb-3">
+                                <label for="diaChi" class="form-label">Mục đầu 1</label>
+                                <input type="text" v-model="thead1" :value="thead1" class="form-control" id="thead1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="diaChi" class="form-label">Mục đầu 2</label>
+                                <input type="text" v-model="thead2" :value="thead2" class="form-control" id="diaChi">
+                            </div>
+                            <div class="mb-3">
+                                <label for="diaChi" class="form-label">Mục đầu 3</label>
+                                <input type="text" v-model="thead3" :value="thead3" class="form-control" id="diaChi">
+                            </div>
+                            <div class="mb-3">
+                                <label for="diaChi" class="form-label">Mục đầu 4</label>
+                                <input type="text" v-model="thead4" :value="thead4" class="form-control" id="diaChi">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <p class="text-danger">Ghi chú: Lưu ý chỉ thay đổi hiển thị, dữ liệu vẫn sẽ giữ nguyên</p>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="tieuDeDauBang">Lưu thay đổi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal ảnh slide -->
+    <div class="modal fade" id="slideEdit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sửa ảnh slide(1385x500)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <img :src="anhSl1" alt="" style="width:50%" />
+                            <p>Ảnh đang có slide 1</p>
+                        </div>
+                        <div class="col-md-6">
+                            <label>
+
+                                Chọn ảnh
+                            </label>
+                            <input type="file" ref="pathSlider1File" v-on:change="onFileChangeSlide1" accept="image/*">
+                            <img :src="previewImage1" alt="" style="width:50%" />
+                            <p>Ảnh mới</p>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <img :src="anhSl2" alt="" style="width:50%" />
+                            <p>Ảnh đang có slide 2</p>
+                        </div>
+                        <div class="col-md-6">
+                            <label>
+
+                                Chọn ảnh
+                            </label>
+                            <input type="file" ref="pathSlider2File" v-on:change="onFileChangeSlide2" accept="image/*">
+                            <img :src="previewImage2" alt="" style="width:50%" />
+                            <p>Ảnh mới</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img :src="anhSl3" alt="" style="width:50%" />
+                            <p>Ảnh đang có slide 3</p>
+                        </div>
+                        <div class="col-md-6">
+                            <label>
+
+                                Chọn ảnh
+                            </label>
+                            <input type="file" ref="pathSlider3File" v-on:change="onFileChangeSlide3" accept="image/*">
+                            <img :src="previewImage3" alt="" style="width:50%" />
+                            <p>Ảnh mới</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="uploadImageSlide">Lưu thay đổi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal bank sửa  -->
+    <div class="modal fade" id="suaBank" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sửa ngân hàng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" v-model="idBank" :value="idBank" id="idBank" />
+                    <input type="hidden" v-model="tokenBank" :value="tokenBank" id="tokenBank" />
+                    <div class="mb-3">
+                        <label for="diaChi" class="form-label">Tên ngân hàng</label>
+                        <input type="text" v-model="bankName" :value="bankName" class="form-control" id="bankName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="diaChi" class="form-label">Số tài khoản</label>
+                        <input type="text" v-model="taiKhoanBank" :value="taiKhoanBank" class="form-control" id="taiKhoanBank">
+                    </div>
+                    <div class="mb-3">
+                        <label for="diaChi" class="form-label">Tên tài khoản</label>
+                        <input type="text" v-model="tenTaiKhoan" :value="tenTaiKhoan" class="form-control" id="tenTaiKhoan">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="getItemBank">Lưu thay đổi</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Modal bank thêm  -->
+    <div class="modal fade" id="themBank" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Thêm ngân hàng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" v-model="idBank" :value="idBank" id="idBank" />
+                    <input type="hidden" v-model="tokenBank" :value="tokenBank" id="tokenBank" />
+                    <div class="mb-3">
+                        <label for="diaChi" class="form-label">Tên ngân hàng</label>
+                        <input type="text" v-model="bankName" :value="bankName" class="form-control" id="bankName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="diaChi" class="form-label">Số tài khoản</label>
+                        <input type="text" v-model="taiKhoanBank" :value="taiKhoanBank" class="form-control" id="taiKhoanBank">
+                    </div>
+                    <div class="mb-3">
+                        <label for="diaChi" class="form-label">Tên tài khoản</label>
+                        <input type="text" v-model="tenTaiKhoan" :value="tenTaiKhoan" class="form-control" id="tenTaiKhoan">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="getItemBank">Thêm mới</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal bank xóa  -->
+    <div class="modal fade" id="xoaBankModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Xóa ngân hàng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" v-model="idBank" :value="idBank" id="idBank" />
+                    <input type="hidden" v-model="tokenBank" :value="tokenBank" id="tokenBank" />
+                    <div class="mb-3">
+                        <label for="diaChi" class="form-label">Tên ngân hàng</label>
+                        <input type="text" v-model="bankName" :value="bankName" class="form-control" id="bankName" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="diaChi" class="form-label">Số tài khoản</label>
+                        <input type="text" v-model="taiKhoanBank" :value="taiKhoanBank" class="form-control" id="taiKhoanBank" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="diaChi" class="form-label">Tên tài khoản</label>
+                        <input type="text" v-model="tenTaiKhoan" :value="tenTaiKhoan" class="form-control" id="tenTaiKhoan" readonly>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" v-on:click="XoaBangBank">Xóa</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="~/js/adminfb_vuejs/editimage.js"></script>
